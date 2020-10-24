@@ -18,7 +18,7 @@ for user in my_users:
   if 'email' in user:
     print (user['email'])
 
-#looping inside a loop:
+#more than one condition:
 selected_user = {}
 my_user_loockup = 2
 for user in my_users:
@@ -43,3 +43,9 @@ for user in my_users:
   if user['id'] == my_user_loockup:
     selected_user = user
 print(selected_user)
+
+#loop inside a loop
+for x in range(0,10):
+  for user in my_users:
+    if user['id'] == x:
+      print(user)
