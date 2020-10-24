@@ -39,6 +39,7 @@ print(selected_user)
 selected_user = {}
 my_user_loockup = 2
 for user in my_users:
+  # if one of our dict has no id this loop will break and through an error
   if user['id'] == my_user_loockup:
     selected_user = user
 print(selected_user)
