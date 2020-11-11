@@ -1,3 +1,4 @@
+# some exercise 
 # create 2 dects
 # add them into one list
 #loop through the new list
